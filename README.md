@@ -19,8 +19,8 @@ This project analyzes open-ended patient reviews to predict sentiment (positive 
 <pre><code>
 patient-sentiment-healthcare/
 ├── data/
-│ ├── raw/ # Original dataset
-│ └── processed/ # Cleaned dataset
+│ ├── dataset_hospital_reviews.csv #raw
+│ └── dataset_hospital_reviews_cleaned.csv #processed
 ├── notebooks/
 │ ├── 01_data_cleaning_and_eda.ipynb # Data cleaning + EDA
 │ └── 02_modeling_and_llm_comparison.ipynb # Model training + LLM comparison
